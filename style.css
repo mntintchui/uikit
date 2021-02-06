@@ -1,6 +1,12 @@
 h1 {
-    font-size: 17px;
+    font-size: 40px;
     color: #2c3e50;
+    text-align: center;
+}
+
+.items-kit{
+    text-align: left;
+    margin: 50px 50px;
 }
 
 .btn {
@@ -78,4 +84,28 @@ h1 {
 
 .card-title{
     padding-left: 10px;
+}
+
+.navbar{
+    list-style-type: none;
+    background-color: #6d757e;
+    color: #e7edf3;
+    display: flex;
+    /*flex-direction: row;*/
+}
+
+.navbar-item{
+    margin: 5px 30px 5px 30px;
+    color: mediumaquamarine;
+}
+
+.navbar-item:hover {
+    color:rgb(247, 247, 243);
+}
+
+@media screen and (max-width: 700px) {
+    
+    .navbar {
+        flex-direction: column !important;
+    }
 }
