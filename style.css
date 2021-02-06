@@ -20,6 +20,7 @@ h1 {
     background-color: #f8d7da;
     border-color: #f5c6cb;
     border-style: solid;
+    border-width: thin;
     height: 70px;
     width: 400px;
     border-radius: 5%;
@@ -28,3 +29,24 @@ h1 {
     align-items:flex-start;       
 }
 
+.list-group{
+    border-radius: 5%;
+    border-style: solid;
+    border-width: thin;
+    width: 400px;
+    height: 200px;
+    list-style-type: none;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-color: #DFDFDF;
+}
+
+.list-group-item{
+    border-style: solid;
+    border-width: thin;
+    width: 400px;
+    height: 200px;
+    border-color: #DFDFDF;
+}
