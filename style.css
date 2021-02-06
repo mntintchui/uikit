@@ -26,7 +26,8 @@ h1 {
     border-radius: 5%;
     color:#721c24 ;
     display: flex;
-    align-items:flex-start;       
+    align-items:flex-start;  
+    padding-left: 10px;     
 }
 
 .list-group{
@@ -49,4 +50,32 @@ h1 {
     width: 400px;
     height: 200px;
     border-color: #DFDFDF;
+}
+
+.card{
+    border-color: gray;
+    border-style: solid;
+    border-width: thin;
+    width: 400px;
+    height: 400px;
+}
+
+.image{
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+}
+
+
+.bt1 {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    border-radius: 9%;    
+    font-size: 15px;
+    padding: 10px;
+}
+
+.card-title{
+    padding-left: 10px;
 }
