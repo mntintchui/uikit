@@ -15,3 +15,16 @@ h1 {
 .btn:hover {
     background-color: #27ae60;
   }
+
+.alert {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-style: solid;
+    height: 70px;
+    width: 400px;
+    border-radius: 5%;
+    color:#721c24 ;
+    display: flex;
+    align-items:flex-start;       
+}
+
